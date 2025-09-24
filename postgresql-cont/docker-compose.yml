@@ -10,6 +10,6 @@ services:
         volumes:
         - './postgres_data:/var/lib/postgresql/data'
         environment:
-        - POSTGRES_PASSWORD=1234
+        - POSTGRES_PASSWORD=YourPasswordHere
         ports:
         - '5432:5432'
